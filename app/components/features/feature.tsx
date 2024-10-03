@@ -5,11 +5,10 @@ import Image5 from "@/public/burger.image.4.jpg"
 import Image from 'next/image'
 const Feature = () => {
   return (
-    <div className='pt-[5rem] pb-[3rem]'>
+    <div className='pt-[6rem] pb-[3rem]'>
         {/*Heading*/}
-        <h1 className='heading flex items-center justify-center text-3xl uppercase font-bold'>burgers made with <br/>
-        love and<span className='text-red-600 flex text-center justify-center'>care</span>
-        </h1>
+        <h1 className=' flex items-center justify-center text-4xl uppercase font-bold text-black gap-1'>burgers made with 
+        love and<span className='text-red-600 '>care</span> </h1>
         {/*card*/}
         <div className='w-[90%] md:w-[80%] h-[80%] md:h-[80%] mt-[3rem] md:mt-[5rem] mb-[3rem] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[3rem]'>
         {/*1st cards*/}

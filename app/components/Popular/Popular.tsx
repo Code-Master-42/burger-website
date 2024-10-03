@@ -24,8 +24,8 @@ const responsive = {
 const Popular = () => {
   return (
     <div className="pt-[3rem] pb-[3rem]">
-        <h1 className="heading flex items-center justify-center text-3xl uppercase font-bold ">
-            Over Popular <span className='text-red-600'>Burgers</span>
+        <h1 className="heading flex items-center justify-center text-4xl uppercase font-bold text-black gap-1">
+            Over Popular  <span className='text-red-600 '>Burgers</span>
         </h1>
         <div className='w-[100%] mt-[4rem] mx:auto '>
 <Carousel additionalTransfrom={0} arrows={true} autoPlay={true} autoPlaySpeed={4000} centerMode={false} infinite responsive={responsive} itemClass='item' showDots>
