@@ -6,6 +6,7 @@ import { IoFastFood } from "react-icons/io5";
 import { BsDoorOpen } from "react-icons/bs";
 const Delivery = () => {
   return (
+    <div id='Blog'>
     <div className='pt-[8rem] pb-[3rem]'>
 <div className='w-[80%] mx:auto grid items-center grid-cols-1 lg:grid-cols-2 gap-[2rem]'>
 <div data-aos="fade-right" data-aos-anchor-placement="top-center">
@@ -38,6 +39,7 @@ Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero provident animi al
 </div>
 </div>
 </div>
+    </div>
     </div>
   )
 }

@@ -1,10 +1,9 @@
 import React from 'react'
 import { BiPhone } from 'react-icons/bi'
-import PresevationForn from './presevationForn'
-
+import PresevationForn from '@/app/Reversation/reversation'
 const Reservation = () => {
   return (
-    <div className="pt-[5rem] bg-center bg-cover relative mt-[2rem] pb-[rem] mb-[3rem] bg-[url/('/image/bg-black.jpg')]">
+    <div className="pt-[5rem] bg-center bg-cover relative mt-[2rem] pb-[rem] mb-[3rem] bg-[url/('/image')]">
     <div className='absolute w-full h-full bg-black top-0 bottom-0 left-0 right-0 '></div>
     <div className='w-[80%] relative z-[20] pb-8 mx-auto grid grid-cols-1 lg:grid-cols-2 items-center gap-[3rem]'>
 <div > <h1 className='text-[30px] md:text-[40px] lg:text-[50px] text-white font-bold leading-[3rem] md:leading-[4rem] uppercase'>

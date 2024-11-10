@@ -18,13 +18,13 @@ const MobileNav = ({closeNav,showNav}:Props) => {
 <li className='text-[35px] font-medium hover:text-yellow-400 text-white'>
   <Link href="/">Home</Link></li>
   <li className='text-[35px] font-medium hover:text-yellow-400 text-white'>
-  <Link href="/">Shop</Link></li>
+  <Link href="/features">Menu</Link></li>
   <li className='text-[35px] font-medium hover:text-yellow-400 text-white'>
-  <Link href="/">Menu</Link></li>
+  <Link href="/Popular">Shop</Link></li>
   <li className='text-[35px] font-medium hover:text-yellow-400 text-white'>
-  <Link href="/">Blog</Link></li>
+  <Link href="/Team">Cheif</Link></li>
   <li className='text-[35px] font-medium hover:text-yellow-400 text-white'>
-  <Link href="/">Contact</Link>
+  <Link href="/Reversation">Contact</Link>
   </li>
 </ul>
 </div>

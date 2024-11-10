@@ -2,7 +2,8 @@ import Link from 'next/link'
 import React from 'react'
 import { BiCycling, BiShoppingBag } from 'react-icons/bi'
 import { FaBurger } from 'react-icons/fa6'
-import { HiBars3BottomRight } from 'react-icons/hi2'
+import { HiBars3BottomRight } from "react-icons/hi2";
+
 interface Props{
   openNav:()=>void
 }
@@ -22,13 +23,13 @@ const Nav = ({openNav}:Props) => {
 <li className='text-[20px] font-medium hover:text-red-600'>
   <Link href="/">Home</Link></li>
   <li className='text-[20px] font-medium hover:text-red-600'>
-  <Link href="/">Shop</Link></li>
+  <Link href="/features">Menu</Link></li>
   <li className='text-[20px] font-medium hover:text-red-600'>
-  <Link href="/">Menu</Link></li>
+  <Link href="/Popular">Shop</Link></li>
   <li className='text-[20px] font-medium hover:text-red-600'>
-  <Link href="/">Blog</Link></li>
+  <Link href="/Team">Cheif</Link></li>
   <li className='text-[20px] font-medium hover:text-red-600'>
-  <Link href="/">Contact</Link>
+  <Link href="/Reversation">Contact</Link>
   </li>
 </ul>
 {/*button*/}
